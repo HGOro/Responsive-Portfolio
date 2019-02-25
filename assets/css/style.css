@@ -215,3 +215,81 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/*media queries put here at the end*/
+/*media query for 980px*/
+
+/*within each @media, the navbar and footer should be the same for index, portfolio, and contact*/
+
+@media screen and (max-width: 980px){
+  .container{
+    width: 980px;
+  }
+
+  .main-section{
+    width: 70%;
+  }
+}
+
+#masthead{
+  width: 100%;
+}
+
+footer{
+  width: 100%;
+}
+
+
+/*media query for 768px*/
+@media screen and (max-width: 768px){
+  body{
+    width:100%;
+  }
+  
+  .container{
+    width: 768px;
+  }
+
+  .main-section{
+    width: 100%;
+    
+  }
+ 
+  .auth-image{
+    width: 60%;
+  }
+/*end media query for 768px*/
+}
+
+
+
+
+/*media query for 640px*/
+@media screen and (max-width: 640px){
+  #logo{
+    width: 100%;
+  }
+
+  nav{
+    width: 100%;
+    text-align: center;
+  }
+
+  .container{
+    width: 640px;
+  }
+
+  .main-section{
+    width: 100%;
+    margin: 40px 0px 40px 0px;
+  }
+
+  .auth-image{
+    width: 100%;
+    margin: 10px 25px 25px 0px;
+  }
+
+  .work{
+    width: 100%;
+  }
+}
